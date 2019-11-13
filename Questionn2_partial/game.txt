@@ -1,0 +1,61 @@
+500<=payOut<=250000
+
+Math.random()+
+
+if((Math.random()*500)<500)
+	{
+		payout=500
+	}
+elseif(Math.random())
+---------------------------------------------------------------------------------------------------
+double win=500.00;
+int firstChoice = 1;
+int randomBag = 1;
+
+function winCalc(){
+	if(Math.random()*250000)<500.00
+		win = 500.00;
+	win = Math.random()*250000;
+	return win;
+}
+
+
+
+
+function randomBag(){
+	if(((int)(((Math.random()*16).round()))<1) | (int)((Math.random()*16).round())==firstChoice)
+		randomBag();
+	randomBag = (int)((Math.random()*16).round());
+	return randomBag;
+}
+
+function finalWinCalc(){
+	
+	System.out.println("Enter a number from 1 to 16 to choose a bag");
+	InputStreamReader isr = new InputStreamReader();
+	BufferedReader br = new BufferedReader(isr);
+	String enteredNumber = br;
+	firstChoice = Integer.ParseInt(enteredNumber);
+	if(enteredNumber<1 || enteredNumber>16){
+		System.out.println("Out of range, please select a valid bag number from 1 to 16");
+		********************************************
+	System.out.println("You chose bag " + this.firstChoice);
+	System.out.println("Enter 'r' to retain your choice or 'c' to change your answer to bag " + this.randomBag());
+	String finalChoice = System.in(br);
+	if(finalChoice.equals('r')){
+		this.winCalc();
+		System.out.println("You have won " + this.winCalc());
+}
+	elseif(finalChoice.equals('c')){
+		this.winCalc();
+		this.winCalc();
+		Systen.out.println("You have won " + this.winCalc);
+}
+}
+	
+		
+		
+	
+
+	
+		

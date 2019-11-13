@@ -1,0 +1,517 @@
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+#secondary {
+  position: absolute;
+  width: 89%;
+  height: 593px;
+  border-radius: 1.3%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  margin-left: 5%;
+  margin-top: -330px;
+}
+
+#secondary #lorem {
+  margin-left: 8%;
+  margin-right: 9%;
+  margin-top: 3%;
+}
+
+#secondary #lorem p {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+#secondary #ansSub {
+  position: absolute;
+  width: 1063px;
+  height: 95px;
+  left: 90px;
+  margin-top: 45px;
+  color: #FFDD00;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  /* or 127% */
+  text-align: center;
+}
+
+#secondary #nameGame p {
+  margin: 37px 0 0 6%;
+  color: #FFFFFF;
+}
+
+#secondary #nameGame p #ls {
+  color: #FFDD00;
+}
+
+#primary {
+  margin-top: 150px;
+  width: 99.68%;
+  height: 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 1.3%;
+  border-bottom: 100px;
+  border: 5px solid #FFDD00;
+}
+
+#primary #charityHome {
+  height: 150px;
+  width: 150px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 55px 0 0 35px;
+}
+
+#primary #charityText {
+  margin: -35px 0 0 20px;
+  width: 219.24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: white;
+  text-shadow: 0.0px 10.0px 0.02px #00AEEF, 9.8px 2.1px 0.02px #00AEEF, 4.2px -9.1px 0.02px #00AEEF, -8.0px -6.0px 0.02px #00AEEF, -7.6px 6.5px 0.02px #00AEEF, 4.8px 8.8px 0.02px #00AEEF, 9.6px -2.8px 0.02px #00AEEF, -0.7px -10.0px 0.02px #00AEEF, -9.9px -1.5px 0.02px #00AEEF, -3.5px 9.4px 0.02px #00AEEF, 8.4px 5.4px 0.02px #00AEEF, 7.1px -7.0px 0.02px #00AEEF, -5.4px -8.4px 0.02px #00AEEF, -9.4px 3.5px 0.02px #00AEEF, 1.4px 9.9px 0.02px #00AEEF, 10.0px 0.8px 0.02px #00AEEF, 2.9px -9.6px 0.02px #00AEEF, -8.7px -4.8px 0.02px #00AEEF, -6.6px 7.5px 0.02px #00AEEF, 5.9px 8.0px 0.02px #00AEEF, 9.1px -4.1px 0.02px #00AEEF, -2.1px -9.8px 0.02px #00AEEF, -10.0px -0.1px 0.02px #00AEEF, -2.2px 9.8px 0.02px #00AEEF, 9.1px 4.2px 0.02px #00AEEF, 6.1px -8.0px 0.02px #00AEEF, -6.5px -7.6px 0.02px #00AEEF, -8.8px 4.7px 0.02px #00AEEF, 2.7px 9.6px 0.02px #00AEEF, 10.0px -0.6px 0.02px #00AEEF, 1.5px -9.9px 0.02px #00AEEF, -9.3px -3.6px 0.02px #00AEEF, -5.5px 8.4px 0.02px #00AEEF, 7.0px 7.2px 0.02px #00AEEF, 8.5px -5.3px 0.02px #00AEEF, -3.4px -9.4px 0.02px #00AEEF, -9.9px 1.3px 0.02px #00AEEF, -0.8px 10.0px 0.02px #00AEEF, 9.6px 2.9px 0.02px #00AEEF, 4.9px -8.7px 0.02px #00AEEF, -7.5px -6.7px 0.02px #00AEEF, -8.1px 5.9px 0.02px #00AEEF, 4.0px 9.2px 0.02px #00AEEF, 9.8px -2.0px 0.02px #00AEEF, 0.2px -10.0px 0.02px #00AEEF, -9.7px -2.3px 0.02px #00AEEF, -4.3px 9.0px 0.02px #00AEEF, 7.9px 6.1px 0.02px #00AEEF;
+  -webkit-transform: rotate(-5.55deg);
+          transform: rotate(-5.55deg);
+}
+
+#primary #rfc {
+  float: right;
+  margin: -195px 275px 0 0;
+  width: 620px;
+  height: 81px;
+  left: 467px;
+  top: 1080px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  text-transform: uppercase;
+  /* Primary Colour */
+  color: #FFDD00;
+}
+
+#rectangle11 {
+  height: 664px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#D1D1D1), color-stop(48.44%, #FFFFFF), to(#CECECE));
+  background-image: linear-gradient(180deg, #D1D1D1 0%, #FFFFFF 48.44%, #CECECE 100%);
+}
+
+#rectangle11 p {
+  position: absolute;
+  left: 15.54%;
+  right: 78.7%;
+  top: 10%;
+  bottom: 93.24%;
+  -webkit-transform: rotate(-11.65deg);
+          transform: rotate(-11.65deg);
+}
+
+#button1 .btn1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  padding-left: 50px;
+}
+
+.buttonsLayer1 {
+  margin-top: 50px;
+}
+
+.buttonsLayer1 .btn1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+#buttonsLayer2 .btn1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+#buttonsLayer2 #dot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#buttonsLayer2 #acc {
+  color: #FFFFFF;
+}
+
+#buttonsLayer2 #ts {
+  color: #FFDD00;
+}
+
+#button2 button {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+  height: 45px;
+}
+
+#button2 button #span1 {
+  color: #FFDD00;
+}
+
+#tellUs p {
+  color: #FFFFFF;
+  margin-left: 3%;
+  margin-top: 35px;
+}
+
+#roundPencil {
+  height: 40px;
+  width: 40px;
+  background-color: #FFDD00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#lot {
+  margin-left: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #FFDD00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.line {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.75);
+  opacity: 0.7;
+  border-radius: 4px;
+}
+
+#line1 {
+  margin-top: 20px;
+}
+
+#line2 {
+  margin-top: 24px;
+}
+
+.horizontal {
+  width: 515px;
+  height: 2px;
+}
+
+.horizontal2 {
+  width: 890px;
+  height: 4px;
+}
+
+#line3 {
+  position: absolute;
+  width: 840px;
+  height: 4px;
+  margin: -140px 275px 0 310px;
+  /* Primary Colour */
+  background: #FFDD00;
+  border-radius: 100px;
+}
+
+#btn {
+  width: 176px;
+  height: 39px;
+  float: right;
+  margin: -40px 40px 0 0;
+  text-transform: uppercase;
+  color: #FFDD00;
+  /* Secondary Colour */
+  background: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  /* Primary Colour */
+  border: 2px solid #FFDD00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+}
+
+#placeholder {
+  height: 7.62%;
+}
+
+#footer {
+  margin-top: 650px;
+  height: 60px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 5px 150px 5px 150px;
+  /* or 158% */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#spn {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5C006A), to(#44034F));
+  background-image: linear-gradient(180deg, #5C006A 0%, #44034F 100%);
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 35px;
+  text-transform: uppercase;
+}
+
+#buttonsLayer1Sub {
+  text-align: center;
+}
+
+#buttonsLayer1Sub .btn1Sub {
+  border-radius: 20px;
+  width: 345px;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  /* identical to box height, or 70% */
+  text-align: center;
+  /* Tertiary Colour */
+  color: #32023A;
+  margin-left: 20px;
+}
+
+#csr {
+  height: 19px;
+  margin-right: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height, or 127% */
+  float: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+#circle {
+  position: absolute;
+  width: 378px;
+  height: 378px;
+  left: 103px;
+  top: 37.89px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E9E9E9));
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+  -webkit-box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+}
+
+#circle1 {
+  position: absolute;
+  width: 378px;
+  height: 378px;
+  left: 103px;
+  top: 37.89px;
+  border-radius: 50%;
+  border: 20px solid #5C006A;
+  -webkit-box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+}
+
+#circle2 {
+  position: absolute;
+  width: 374px;
+  height: 374px;
+  left: -5px;
+  top: -5px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E9E9E9));
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+  -webkit-box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+  border: 14px solid #00AEEF;
+}
+
+#circle3 {
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  left: -5px;
+  top: -5px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E9E9E9));
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+  border: 10px solid #FFDD00;
+  -webkit-box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+}
+
+#circle4 {
+  position: absolute;
+  width: 366px;
+  height: 366px;
+  left: -5px;
+  top: -5px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E9E9E9));
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+  -webkit-box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid #EC008C;
+}
+
+.rect {
+  margin: -113px 0 60px 65px;
+  height: 155px;
+  width: 955px;
+  text-align: center;
+}
+
+#p {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  -webkit-text-decoration-color: #5C006A;
+          text-decoration-color: #5C006A;
+}
+
+.spn {
+  border: 2px solid black;
+  border-radius: 5px;
+  /* Secondary Colour */
+  background-image: linear-gradient(343.23deg, #080A24 4.6%, #662D91 91.63%);
+  text-align: center;
+  margin: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 19px;
+  /* identical to box height, or 19% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#qm {
+  font-size: 30px;
+  color: black;
+  padding-left: 12px;
+}
+
+#penc {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a yellow background */
+.container input:checked ~ .checkmark {
+  background-color: #FFDD00;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/*# sourceMappingURL=myStyle.css.map */
